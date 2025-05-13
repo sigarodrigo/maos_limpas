@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/dart-lang/mono_repo
+    rev: stable
+    hooks:
+      - id: dartfmt
+      - id: dartanalyzer
